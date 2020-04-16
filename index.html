@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <title>The Clone Wars</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="./assets/logo.png" alt="clone wars logo"></a>
+        <div class="toggle"><img src="./assets/toggle.png"></div>
+    </header>
+    <div class="banner">
+        <div class="content">
+            <h2>The Journey Ends</h2>
+            <p>One of the most critically-acclaimed entries in the Star Wars saga will return for its epic conclusion
+               with 12 all-new episodes on Disney+ beginning February 21. Today we got our first look at the colorful trailer
+               for the final season of Star Wars: The Clone Wars, with glimpses from three exciting new story arcs, which you can watch below.
+               From Dave Filoni, director and executive producer of The Mandalorian, the new Clone Wars episodes will
+               continue storylines introduced in the original series exploring the events leading up to Star Wars: Revenge of the Sith.
+            </p>
+            <a href="#" class="play" onclick="toggle()"><img src="./assets/play.png">Watch Trailer</a>
+            <div class="slide"></div>
+            <ul class="links">
+                <li><a href="#"><img src="./assets/facebook.png"></a></li>
+                <li><a href="#"><img src="./assets/instagram.png"></a></li>
+                <li><a href="#"><img src="./assets/twitter.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="trailer">
+        <iframe width="853" height="505" src="https://www.youtube.com/embed/ZLW2jkd6E7g"
+         frameborder="0" allow="accelerometer; autoplay=1; encrypted-media; gyroscope; picture-in-picture"
+         allowfullscreen></iframe>
+         <img src="./assets/close.png" class="close" onclick="toggle()">
+    </div>
+
+    <script src="./toggle.js"></script>
+</body>
+</html>
